@@ -16,6 +16,7 @@
 
 // if you are using sequelize, uncomment and complete this portion
 
-// const Products = 
+// const Products =
 
 // module.exports = Products;
+

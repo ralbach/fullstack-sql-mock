@@ -1,1 +1,15 @@
+DROP DATABASE IF EXISTS ebid;
+
+CREATE DATABASE ebid;
+
+USE ebid;
+
+CREATE TABLE products (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  item VARCHAR(50) NOT NULL,
+  min_cost FLOAT NOT NULL,
+  curr_bid FLOAT,
+  ends_in INT NOT NULL,
+  image VARCHAR(200) NOT NULL
+);
 
